@@ -1,0 +1,28 @@
+.EightBall {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.EightBall-answer {
+    display: flex;
+    align-items: center;
+}
+
+::selection {
+    background-color: transparent;
+    color: inherit;
+}
+
+div::selection {
+    background-color: transparent;
+    color: inherit;
+}
